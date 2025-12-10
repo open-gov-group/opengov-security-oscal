@@ -1,0 +1,79 @@
+{
+  "profile": {
+    "uuid": "resilience-profile-commune-0000-0000-0000-000000000001",
+    "metadata": {
+      "title": "Resilience Baseline – Kommunale Verwaltung",
+      "version": "0.1.0-draft",
+      "oscal-version": "1.1.2",
+      "last-modified": "2025-12-09T00:00:00Z",
+      "props": [
+        {
+          "name": "profile-scope",
+          "value": "security-resilience"
+        },
+        {
+          "name": "target-environment",
+          "value": "kommunale-verwaltung"
+        },
+        {
+          "name": "intended-use",
+          "value": "Baseline für Resilienzanforderungen in Kommunen, insbesondere für Verfahren mit personenbezogenen Daten."
+        }
+      ],
+      "roles": [
+        {
+          "id": "owner",
+          "title": "Profilverantwortliche Stelle"
+        }
+      ],
+      "parties": [
+        {
+          "uuid": "resilience-profile-owner-0000-0000-0000-000000000001",
+          "type": "organization",
+          "name": "Musterkommune – IT- und Informationssicherheit"
+        }
+      ]
+    },
+
+    "imports": [
+      {
+        "href": "#resilience-baseline-catalog",
+        "include-controls": [
+          {
+            "with-ids": [
+              "SEC-BACKUP-LIFECYCLE-01",
+              "SEC-THIRD-PARTY-DATA-LIFECYCLE-01",
+              "SEC-ARCHIVE-RETENTION-01",
+              "SEC-RESTORE-CONTROL-01",
+              "SEC-DATA-INTEGRITY-01",
+              "SEC-AUDIT-LOG-01",
+              "SEC-PII-RESTRICTION-01",
+              "SEC-LOGGING-01",
+              "SEC-MONITORING-01"
+            ]
+          }
+        ]
+      }
+    ],
+
+    "merge": {
+      "as-is": true
+    },
+
+    "back-matter": {
+      "resources": [
+        {
+          "uuid": "resilience-baseline-catalog",
+          "title": "OpenGov Resilience Baseline – Security & Resilience Controls",
+          "description": "Katalog von Sicherheits- und Resilienz-Controls (Backup, Archiv, Logging, Monitoring, Integrität), die als technische Gegenstücke zu SDM Privacy/TOM-Controls dienen.",
+          "rlinks": [
+            {
+              "href": "https://raw.githubusercontent.com/open-gov-group/opengov-security-oscal/main/oscal/catalog/resilience_baseline_catalog.json",
+              "media-type": "application/json"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}
