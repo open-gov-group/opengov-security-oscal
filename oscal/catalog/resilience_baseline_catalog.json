@@ -1,6 +1,6 @@
 {
   "catalog": {
-    "uuid": "resilience-baseline-0000-0000-0000-000000000001",
+    "uuid": "b41bdb1d-cf49-4538-b634-0465eebc83ad",
     "metadata": {
       "title": "OpenGov Resilience Baseline – Security & Resilience Controls",
       "version": "0.1.0-draft",
@@ -14,7 +14,7 @@
       ],
       "parties": [
         {
-          "uuid": "opengov-security-org-0000-0000-0000-000000000001",
+          "uuid": "d1dc8e1a-52e7-454a-b722-8f9a30ae6144",
           "type": "organization",
           "name": "open-gov-group – Security & Resilience"
         }

@@ -1,6 +1,6 @@
 {
   "profile": {
-    "uuid": "resilience-profile-commune-0000-0000-0000-000000000001",
+    "uuid": "5296679a-8563-4ad4-af16-2e24341968fe",
     "metadata": {
       "title": "Resilience Baseline – Kommunale Verwaltung",
       "version": "0.1.0-draft",
@@ -28,7 +28,7 @@
       ],
       "parties": [
         {
-          "uuid": "resilience-profile-owner-0000-0000-0000-000000000001",
+          "uuid": "6b0d9fa2-410d-4c21-bd1a-fb6413c0bdff",
           "type": "organization",
           "name": "Musterkommune – IT- und Informationssicherheit"
         }
@@ -37,7 +37,7 @@
 
     "imports": [
       {
-        "href": "#resilience-baseline-catalog",
+        "href": "https://raw.githubusercontent.com/open-gov-group/opengov-security-oscal/main/oscal/catalog/resilience_baseline_catalog.json",
         "include-controls": [
           {
             "with-ids": [
@@ -63,7 +63,7 @@
     "back-matter": {
       "resources": [
         {
-          "uuid": "resilience-baseline-catalog",
+          "uuid": "b0f8156e-e9c9-401d-b51e-1c1363d70aad",
           "title": "OpenGov Resilience Baseline – Security & Resilience Controls",
           "description": "Katalog von Sicherheits- und Resilienz-Controls (Backup, Archiv, Logging, Monitoring, Integrität), die als technische Gegenstücke zu SDM Privacy/TOM-Controls dienen.",
           "rlinks": [
